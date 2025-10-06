@@ -1,0 +1,27 @@
+{
+  "name": "Nebhula Blog",
+  "short_name": "Nebhula",
+  "start_url": "https://nebhula.github.io/blog-pwa2/?utm_source=pwa",
+  "scope": "https://nebhula.github.io/blog-pwa2/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#bdccaf",
+  "description": "Blog personal de Nebhula, ideas, proyectos y locuras varias.",
+  "lang": "es",
+  "dir": "ltr",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm71ehhtmnHuqJqP7ZBMGXZXWgtkqoyxh-NLaQiHTHuyjbnTtL-gC7mTw1Tsft-QQ4Wcw5gRE_6WgXC2S1_ep8yJVyC21gnYg__nH9iJ2uUVSFgRszTrviCOix_as_Nj4bY05jbk7gBvlX_4T7cQiMhw3HdygVW76XkvIO72sQgcRFyqZqaYlfqAiVRZY/s1600/nebhula%20%2872%29.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm71ehhtmnHuqJqP7ZBMGXZXWgtkqoyxh-NLaQiHTHuyjbnTtL-gC7mTw1Tsft-QQ4Wcw5gRE_6WgXC2S1_ep8yJVyC21gnYg__nH9iJ2uUVSFgRszTrviCOix_as_Nj4bY05jbk7gBvlX_4T7cQiMhw3HdygVW76XkvIO72sQgcRFyqZqaYlfqAiVRZY/s1600/nebhula%20%2872%29.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["lifestyle", "blog"],
+  "prefer_related_applications": false
+}
