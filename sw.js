@@ -3,10 +3,10 @@ const CACHE_NAME = "nebhula-blog-cache-v1";
 
 // Archivos que se precachean (ajusta según tu repo)
 const PRECACHE_URLS = [
-  "https://nebhula.github.io/pwa-nebhula/",
-  "https://nebhula.github.io/pwa-nebhula/index.html",
-  "https://nebhula.github.io/pwa-nebhula/offline.html",
-  "https://nebhula.github.io/pwa-nebhula/manifest.json",
+  "https://nebhula.github.io/blog-pwa2/",
+  "https://nebhula.github.io/blog-pwa2/index.html",
+  "https://nebhula.github.io/blog-pwa2/offline.html",
+  "https://nebhula.github.io/blog-pwa2/manifest.json",
   "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm71ehhtmnHuqJqP7ZBMGXZXWgtkqoyxh-NLaQiHTHuyjbnTtL-gC7mTw1Tsft-QQ4Wcw5gRE_6WgXC2S1_ep8yJVyC21gnYg__nH9iJ2uUVSFgRszTrviCOix_as_Nj4bY05jbk7gBvlX_4T7cQiMhw3HdygVW76XkvIO72sQgcRFyqZqaYlfqAiVRZY/s1600/nebhula%20%2872%29.png"
 ];
 
@@ -48,7 +48,7 @@ self.addEventListener("fetch", (event) => {
         if (res) return res;
         // Si no está en cache, devolvemos offline.html si es una página
         if (event.request.destination === "document") {
-          return caches.match("https://nebhula.github.io/pwa-nebhula/offline.html");
+          return caches.match("https://nebhula.github.io/blog-pwa2/offline.html");
         }
       }))
   );
