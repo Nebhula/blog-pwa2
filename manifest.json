@@ -4,20 +4,20 @@
   "start_url": "https://nebhula.github.io/blog-pwa2/?utm_source=pwa",
   "scope": "https://nebhula.github.io/blog-pwa2/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#bdccaf",
+  "background_color": "#6acaff",
+  "theme_color": "#6acaff",
   "description": "Sociedad Ornitológica de criadores nacionales SOCNAS",
   "lang": "es",
   "dir": "ltr",
   "orientation": "any",
   "icons": [
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhygvEClYqkKDwGcgfItnXToXdCyz1QGkjArKoIX3WkDx3uiwan0qLnflDvkkT39jAgK3bBBBkE4GXTGP81QSVTODenWMCU90EliwIQnaCeyn8T_UZXJPdIWhQRrEqO6sidLqROEsB4wEiPhPyone0sKIz5BO9-ggZzb2srBnY9ezFx4oIhIt-4Wecwdrs/s1600/socnas2.png",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj74PjXXk_6N85K_gpkJzFfecClpyocpEEO1sXKnfFugMqM2oyQbYL3GEX4BFGIY-eItgAha7R4cjm7EKL4_q8JVB9RDTabGSJeMctqh_6fhQGpBEYXm9G9NqJDdOPdh09AJ_r7AadnK1Oxri9PMUGtTfjQq4-x4uWqe1BePbm-r2bwBV7jvsT7kzM-Was/s1600/socnas192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_i_OFwxnj0-1uDPfGjdw_2354NjaaQsuP7umplcaJx-MVsk1UgtoNPzcAqJz1epWdktdy5jdsU-4QooHXAPl1-iA6vI6ibJlXKOEc557dShwqerBehFSYU1pT7KXA5xiaAsstGfd12Tu8lvn2215w4ktyuzexgBj657Y3XBTZ2IHCdxsXlmZpts9mW8g/s1600/socnas1.png",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfS5AW0IkNQjLiDk1f4Y7KP4Mw_yII0K4Wn4fWQ4ykvdRt8W75FQnmWUEe5wl5HbamdHcFp3JVajM8mUppYEaEW9eaNQ-0AXsyGzuDAOr-2-tebk5lTofWl6KxcGXlDX4bvFgRfcW8aTbs6E1lNTAQBciP-vFUAsNnkVQ1X3PX60oHY1DgGJOYcp4NxQw/s1600/socnaslogo512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
