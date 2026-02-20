@@ -52,25 +52,12 @@ self.addEventListener("fetch", (event) => {
         }
       }))
   );
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-// AÑADE ESTO AL FINAL DE TU sw.js (antes del último cierre)
-
+// ===== NUEVO CÓDIGO PARA DETECTAR INSTALACIÓN =====
 // Escuchar mensajes desde la página
 self.addEventListener('message', (event) => {
     if (event.data && event.data.type === 'PWA_INSTALLED') {
-        // Guardar en caché que la PWA está instalada
         caches.open(CACHE_NAME).then(cache => {
             const response = new Response(JSON.stringify({
                 installed: true,
@@ -95,22 +82,4 @@ self.addEventListener('fetch', (event) => {
             })
         );
     }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 });
