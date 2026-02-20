@@ -52,4 +52,65 @@ self.addEventListener("fetch", (event) => {
         }
       }))
   );
+
+
+
+
+
+
+
+
+
+
+
+
+
+// AÑADE ESTO AL FINAL DE TU sw.js (antes del último cierre)
+
+// Escuchar mensajes desde la página
+self.addEventListener('message', (event) => {
+    if (event.data && event.data.type === 'PWA_INSTALLED') {
+        // Guardar en caché que la PWA está instalada
+        caches.open(CACHE_NAME).then(cache => {
+            const response = new Response(JSON.stringify({
+                installed: true,
+                timestamp: Date.now()
+            }), {
+                headers: { 'Content-Type': 'application/json' }
+            });
+            cache.put('/pwa-installed', response);
+        });
+    }
+});
+
+// Interceptar petición para verificar instalación
+self.addEventListener('fetch', (event) => {
+    if (event.request.url.includes('/pwa-installed')) {
+        event.respondWith(
+            caches.match(event.request).then(response => {
+                if (response) return response;
+                return new Response(JSON.stringify({ installed: false }), {
+                    headers: { 'Content-Type': 'application/json' }
+                });
+            })
+        );
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 });
